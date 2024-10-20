@@ -1,0 +1,88 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+body{
+ background: lightgray;
+}
+
+h2{
+ color: gray;
+ text-transform: uppercase;
+ text-decoration: 1px underline double #babecc;
+}
+
+.container{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ line-height: 3em;
+}
+
+.color-box{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 100%;
+ margin-bottom: 3%;
+}
+
+.color-box input[type="range"]{
+ width: 70%;
+}
+
+.color-box .redDisplay{
+ background: red;
+ color: #fff;
+}
+
+.color-box .greenDisplay{
+ background: green;
+ color: #fff;
+}
+
+.color-box .blueDisplay{
+ background: blue;
+ color: #fff;
+}
+
+.color-box span{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 10%;
+ height: 25px;
+ margin-left: 2%;
+}
+
+.color{
+ font-size: 1em;
+ font-weight: bold;
+ color: gray;
+}
+
+.box{
+ width: 200px;
+ height: 200px;
+ border: .1px solid darkgray;
+ border-radius: 5px;
+}
+
+.copyBtn{
+ width: 100px;
+ height: 40px;
+ border: none;
+ outline: none;
+ border-radius: 10px;
+ background: transparent;
+ box-shadow: 2px 2px 3px #babecc,
+             -2px -2px 3px rgba(0, 0, 0, .25);
+ margin-bottom: 3%;
+}
+
+.copyBtn:active{
+ transform: scale(.8);
+}
